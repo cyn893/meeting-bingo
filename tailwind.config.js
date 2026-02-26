@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        sage: {
+          50: '#f0f5ef',
+          100: '#e2ebe0',
+          200: '#d4e1d1',
+        },
+      },
       animation: {
         'pulse-fast': 'pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'bounce-in': 'bounceIn 0.5s ease-out',
