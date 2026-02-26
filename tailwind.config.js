@@ -8,9 +8,9 @@ export default {
     extend: {
       colors: {
         sage: {
-          50: '#f0f5ef',
-          100: '#e2ebe0',
-          200: '#d4e1d1',
+          50: '#fdf2f8',
+          100: '#fce7f3',
+          200: '#fbcfe8',
         },
       },
       animation: {
