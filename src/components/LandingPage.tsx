@@ -4,7 +4,7 @@ interface Props {
 
 export function LandingPage({ onStart }: Props) {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-gradient-to-b from-blue-50 to-white">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-gradient-to-b from-sage-100 to-sage-50">
       <div className="text-center max-w-md">
         <div className="text-6xl mb-4">🎯</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Meeting Bingo</h1>

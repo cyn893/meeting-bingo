@@ -98,7 +98,7 @@ export function GameBoard({ game, setGame, onWin, onBack }: Props) {
   const closest = game.card ? getClosestToWin(game.card) : null;
 
   return (
-    <div className="min-h-screen bg-gray-50 px-4 py-6">
+    <div className="min-h-screen bg-sage-50 px-4 py-6">
       <div className="max-w-sm mx-auto">
         <div className="flex items-center justify-between mb-4">
           <button

@@ -35,7 +35,7 @@ export function WinScreen({ game, onPlayAgain, onHome }: Props) {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-gradient-to-b from-green-50 to-white">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-gradient-to-b from-sage-200 to-sage-50">
       <div className="text-center max-w-md animate-bounce-in">
         <div className="text-6xl mb-4">🎉</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-2">BINGO!</h1>
